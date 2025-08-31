@@ -1,0 +1,5 @@
+gazzet_notices.styles:
+  version: 1.x
+  css:
+    theme:
+      css/gazzet_notices.css: {}

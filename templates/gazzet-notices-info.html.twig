@@ -1,0 +1,21 @@
+{#
+/**
+ * @file
+ * Default theme implementation for displaying gazette notices.
+ *
+ * Available variables:
+ * - table: The table of notices.
+ * - pagination: The pagination controls.
+ * - error: Error message if any.
+ */
+#}
+<div class="gazzet-notices-container">
+  {% if error %}
+    <div class="messages messages--error">
+      {{ error }}
+    </div>
+  {% else %}
+    {{ table }}
+    {{ pagination }}
+  {% endif %}
+</div>

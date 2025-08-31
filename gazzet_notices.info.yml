@@ -1,0 +1,5 @@
+name: 'Gazzet Notices'
+type: module
+description: 'Displays Gazzet notices'
+package: Custom
+core_version_requirement: ^10

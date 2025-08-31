@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains gazzet_notices.module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function gazzet_notices_theme($existing, $type, $theme, $path) {
+  return [
+    'gazzet_notices_info' => [
+      'render element' => 'elements',
+      'template' => 'gazzet-notices-info',
+      'path' => $path . '/templates',
+      'variables' => [
+        'table' => NULL,
+        'pagination' => NULL,
+        'error' => NULL,
+      ],
+    ],
+  ];
+}

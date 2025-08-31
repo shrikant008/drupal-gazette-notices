@@ -1,0 +1,7 @@
+gazzet_notices.info:
+  path: '/gazzet-notices/info'
+  defaults:
+    _title: 'Gazette Notices'
+    _controller: '\Drupal\gazzet_notices\Controller\GazzetNoticesController::info'
+  requirements:
+    _permission: 'access content'

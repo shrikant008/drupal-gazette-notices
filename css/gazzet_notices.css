@@ -1,0 +1,25 @@
+/* In your module's CSS file */
+.pagination-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .current-page {
+    padding: 0 10px;
+  }
+  
+  .button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+    text-decoration: none;
+    color: white;
+  }
